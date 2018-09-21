@@ -9,7 +9,7 @@ eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
   
 cap = cv2.VideoCapture(0) 
   
-while 1:  
+while True:  
   
     ret, img = cap.read()  
   
